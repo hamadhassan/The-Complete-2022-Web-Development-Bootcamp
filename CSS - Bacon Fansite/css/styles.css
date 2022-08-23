@@ -2,13 +2,21 @@ h1{
     color: red;
     font-size: 200px;
 }
-/*
-img{
-    background-color: red;
-}*/
+
+img:hover{
+    background-color: gold;
+}
+/*****************************Classes*****************************/
 .broccoli{
     background-color: red;
 }
 .bacon{
     background-color: green;
+}
+.rounded{
+    border-radius: 100%;
+}
+/*****************************Classes*****************************/
+#heading{
+    color: blue;
 }
