@@ -1,9 +1,17 @@
 body{
     margin: 0px;
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 h1{
     margin: 0px;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    font-family: 'Merriweather', serif;
+}
+h3{
+    font-family: 'Merriweather', serif;
 }
 .top-container{
     background-color: #F1F1F1;
