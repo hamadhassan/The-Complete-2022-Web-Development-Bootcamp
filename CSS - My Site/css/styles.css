@@ -1,11 +1,14 @@
 body{
     margin: 0px;
+    text-align: center;
 }
 h1{
     margin: 0px;
 }
 .top-container{
     background-color: #F1F1F1;
+    position: relative;
+    padding-top: 50px;
 }
 .middle-container{
     background-color: red;
@@ -16,4 +19,18 @@ h1{
     background-color: blue;
     width: 200px;
     height: 200px;
+}
+.pro{
+    text-decoration: underline;
+}
+.bottom-cloud{
+    position: absolute;
+}
+.top-cloud{
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    top: 40px;
+    padding-bottom: 50px;
+    
 }
