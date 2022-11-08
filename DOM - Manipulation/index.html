@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+</head>
+<body><!--ul tag is decendent of body tah -->
+    <ul><!--li tag is decendent of ul tag-->
+        <li>First element</li> <!--These Li tag are siblings-->
+        <li>Second element</li>
+        <li>Third element</li>
+    </ul>
+</body>
+<script>
+    ////Root Node
+    //sconsole.log(document.documentElement)
+    // console.log(head)
+    // console.log(body)
+
+    // //Childrens
+    // console.log(document.body.childNodes)
+    // console.log(document.body.children)
+    // for(node of document.body.children){
+    //     console.log(node)
+    // }
+    // console.log(document.body.firstChild)
+    // console.log(document.body.lastChild)
+    // console.log(document.body.firstElementChild)
+    // console.log(document.body.lastElementChild )
+    // const childrensofBody=Array.from(document.body.children)
+    // console.log(childrensofBody)
+
+    ////Siblings
+    // console.log(document.body.children[0])
+    // const ulTag= document.body.children[0]
+    // console.log(ulTag.nextSibling)
+    // console.log(ulTag.nextElementSibling)
+    const ulTag= document.body.children[0]
+    const firstLi=ulTag.children[0]
+    const secondLi=ulTag.children[1]
+    console.log(firstLi,secondLi)
+    console.log(secondLi.previousElementSibling.textContent)
+    
+</script>
+</html>
