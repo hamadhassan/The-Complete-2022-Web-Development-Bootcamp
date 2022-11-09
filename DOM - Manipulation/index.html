@@ -102,11 +102,18 @@
 
     //Class search
     
-    const ulTag=document.getElementsByClassName("items")
-   // ulTag..style.backgroundColor="red"
-   console.log(ulTag[0])
-   ulTag[0].style.backgroundColor='red'
-    ulTag[0]
+    // const ulTag=document.getElementsByClassName("items")
+    // // ulTag..style.backgroundColor="red"
+    // console.log(ulTag[0])
+    // ulTag[0].style.backgroundColor='red'
+    // ulTag[0]
+
+    //Query selector
+
+    const items=document.querySelectorAll('ul> li:last-child')
+    console.log(items[0].textContent)
+
+
 
 </script>
 </html>
