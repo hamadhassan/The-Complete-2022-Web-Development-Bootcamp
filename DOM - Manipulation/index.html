@@ -14,21 +14,21 @@
     </ul>
     <table>
         <tbody>
-            <tr>
+            <tr class="items">
                 <td>1:1</td>
                 <td>1:2</td>
                 <td>1:3</td>
                 <td>1:4</td>
                 <td>1:5</td>
             </tr>
-            <tr>
+            <tr class="items">
                 <td>2:1</td>
                 <td>2:2</td>
                 <td>2:3</td>
                 <td>2:4</td>
                 <td>2:5</td>
             </tr>
-            <tr>
+            <tr class="items">
                 <td>3:1</td>
                 <td>3:2</td>
                 <td>3:3</td>
@@ -96,11 +96,17 @@
     // element.style.backgound="red";
     // console.log(element.style.backgound='red')
     
-    const ulTag=document.getElementById("element")
-    ulTag.style.backgroundColor="red";
-    console.log(ulTag)
+    // const ulTag=document.getElementById("element")
+    // ulTag.style.backgroundColor="red";
+    // console.log(ulTag)
 
-
+    //Class search
+    
+    const ulTag=document.getElementsByClassName("items")
+   // ulTag..style.backgroundColor="red"
+   console.log(ulTag[0])
+   ulTag[0].style.backgroundColor='red'
+    ulTag[0]
 
 </script>
 </html>
