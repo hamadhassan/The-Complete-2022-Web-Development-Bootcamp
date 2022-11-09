@@ -7,7 +7,7 @@
     <title>DOM Manipulation</title>
 </head>
 <body><!--ul tag is decendent of body tah -->
-    <ul><!--li tag is decendent of ul tag-->
+    <ul id="element"><!--li tag is decendent of ul tag-->
         <li>First element</li> <!--These Li tag are siblings-->
         <li>Second element</li>
         <li>Third element</li>
@@ -92,7 +92,14 @@
     // console.log(tableTag.rows[3].style='background-color:grey')
     // console.log(tableTag.rows[4].style='background-color:yellow')
     
+    //ID search
+    // element.style.backgound="red";
+    // console.log(element.style.backgound='red')
     
+    const ulTag=document.getElementById("element")
+    ulTag.style.backgroundColor="red";
+    console.log(ulTag)
+
 
 
 </script>
