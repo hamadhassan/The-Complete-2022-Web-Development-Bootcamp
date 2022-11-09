@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM Manipulation</title>
 </head>
-<body><!--ul tag is decendent of body tah -->
-    <ul id="element"><!--li tag is decendent of ul tag-->
+<body id="body"><!--ul tag is decendent of body tah -->
+    <ul id="elements" data-="valid"><!--li tag is decendent of ul tag-->
         <li>First element</li> <!--These Li tag are siblings-->
         <li>Second element</li>
         <li>Third element</li>
@@ -110,8 +110,15 @@
 
     //Query selector
 
-    const items=document.querySelectorAll('ul> li:last-child')
-    console.log(items[0].textContent)
+    // const items=document.querySelectorAll('ul> li:last-child')
+    // console.log(items[0].textContent)
+    
+    //Attributes 
+    console.log(elements.getAttribute('data'))
+    console.log(elements.setAttribute('order-placed','pending'))
+    console.log(elements.getAttribute('order-placed'))
+    console.log(elements.hasAttribute('order-placed'))
+    console.log(elements.attributes)
 
 
 
