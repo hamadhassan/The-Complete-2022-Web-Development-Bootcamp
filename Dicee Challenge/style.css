@@ -12,7 +12,7 @@ body{
     color:#4ECCA3;
 }
 #result{
-    margin-top: 2rem;
+    margin-top: 5rem;
     font-family: 'Lobster', cursive;
     font-size: 6rem;
     text-align: center;
@@ -22,11 +22,12 @@ body{
 .dice{
     font-size: 2rem;
     font-family: 'Indie Flower', cursive;;
-    
+    margin: 3rem;
     display: inline-block;
 }
 footer{
     text-align: center;
     color:  white;
     font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
 }
